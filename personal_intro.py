@@ -1,14 +1,14 @@
 Day 1: Setup & First Program - Install Python, create file, write Hello World
 print("Hello, World!")
 
-Day 2: 
+Day 2: Add User Input - Create variables and input() statements
 name = input("What is your Name?")
 age = input("What is your Age?")
 address = input("Where do you live?")
 
 print("Thanks for sharing your Details.")
 
-Day 3:
+Day 3: Welcome Message - Use f-strings to display personalized message
 name = input("What is your Name?")
 age = input("What is your Age?")
 address = input("Where do you live?")
@@ -18,7 +18,7 @@ print(f"\nWelcome {name}!")
 print(f"You are {age} years old and You live in {address}.")
 print(f"Your Favourite Hobby is {hobby}.")
 
-Day 4: 
+Day 4:  Enhance Program - Add more questions and improve formatting
 name = input("What is your Name?")
 age = int(input("What is your Age?"))
 address = input("Where do you live?")
@@ -38,7 +38,7 @@ print(f"Address : {address}")
 print(f"Hobby : {hobby}")
 print(f"Favourite Food : {foods[0]}")
 
-Day 5: 
+Day 5:  Finalize & Test - Fix errors, add comments, create final version
 print("=" * 55)
 print("             FINAL USER PROFILE PROGRAM")
 print("=" * 55)
